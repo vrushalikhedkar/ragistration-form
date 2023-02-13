@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html> 
+<head>
+    <title>File picker</title>
+</head>
+<body>
+    <h1><i>Hotel booking form</i></h1>
+    <form>  
+        <label for="inputFullName"></label>
+           <input type="text" id="inputFullName" placeholder="Enter your name" required/>
+    <br /><br />
+        <label for="inputemail"></label>
+           <input type="email" id="inputemail" placeholder="Enter your email" required/>
+    <br /><br />
+        <label for="inputpassword"></label>
+           <input type="password" id="inputpassword" placeholder="Enter your password" required/>
+    <br /><br />
+        <label for="inputnumber"></label>
+           <input type="text" id="inputnumber" placeholder="Enter your number" required/>
+    <br /><br />
+    <input type="radio" id="Male" name="Gender"/>
+    <label for="Male">Male</label> <br /><br />
+
+    <input type="radio" id="Female" name="Gender"/>
+    <label for="Female">Female</label> <br /><br />
+    choose your city <br /><br />
+    <input list="cityoption"/>
+    <datalist id="cityoption">
+      <option>Nagpur</option>
+      <option>Chandrapur</option>
+      <option>Nanded</option>
+      <option>Bhandara</option>
+    </datalist>
+     <br /><br />  
+    <select>
+      <option>choose your state</option>
+      <option>Maharashtra</option>
+      <option>Haryana</option>
+      <option>Bihar</option>
+      <option>Gujrat</option>
+    </select>
+    <br /><br />
+        <label for="inputdatetime_locle">check-in</label><br /><br />
+           <input type="date" id="inputdatetime_locle" placeholder="check-in" required/>
+    <br /><br />
+        <label for="inputdatetime_locle">check-out</label><br /><br />
+          <input type="date" id="inputdatetime_locle" placeholder="check-iout" required/>       
+    <h2>DETAILS</h2>
+    <hr />
+    which room would you like to book in single?
+    <br /><br />
+    <input type="checkbox" id="Room 101"/>
+    <label for="Room 101">Room 101</label><br />
+    <br /><br />
+    <input type="checkbox" id="Room 102"/>
+    <label for="Room 102">Room 102</label><br />
+    <br /><br />
+    <input type="checkbox" id="Room 103"/>
+    <label for="Room 103">Room 103</label><br />
+    <br /><br />
+    How many beds you want?
+    <br /><br />
+    <input type="radio" id="bed2" name="bedding"/>
+    <label for="bed2">bed2</label> <br /><br />
+
+    <input type="radio" id="bed3" name="bedding"/>
+    <label for="bed3">bed3</label> <br /><br />
+
+    </iframe>
+    <input type="submit" value="booked now"/>
+    </form>
+</body>
+</html>
